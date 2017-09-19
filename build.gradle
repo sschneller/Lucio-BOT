@@ -8,7 +8,7 @@ plugins {
 mainClassName = 'com.crayonbox.lucio.LucioListener'
 
 version '1.0'
-def jdaVersion = '3.3.0_272'
+def jdaVersion = '3.3.0_273'
 def lavaplayerVersion = '1.2.43'
 
 sourceCompatibility = 1.8
