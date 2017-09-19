@@ -1,0 +1,25 @@
+plugins {
+    id'java'
+    id'application'
+    id'com.github.johnrengelman.shadow' version '1.2.4'
+    id'com.sedmelluq.jdaction' version '1.0.2'
+}
+
+mainClassName = 'com.crayonbox.lucio.LucioListener'
+
+version '1.0'
+def jdaVersion = '3.3.0_272'
+def lavaplayerVersion = '1.2.43'
+
+sourceCompatibility = 1.8
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile "net.dv8tion:JDA:$jdaVersion"
+    compile "com.sedmelluq:lavaplayer:$lavaplayerVersion"
+}
+
+compileJava.options.encoding = 'UTF-8'
